@@ -1,0 +1,20 @@
+{
+  "name": "as-near-boilerplate-no-fe",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "authors": [
+    "Aaron Luhning, <a.luhning@vitalpoint.ai>"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "asb",
+    "build:debug": "asb --target debug",
+    "test": "asp --nologo"
+  },
+  "dependencies": {
+    "near-sdk-as": "2.2.4"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
